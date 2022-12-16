@@ -1,0 +1,39 @@
+<script>
+    const matriz = [
+        ["A","B","C"],
+        ["D","E","F"]
+    ]
+    alert(matriz) //O resultado será a matriz inteira.
+    alert(matriz[0][0]) //O resultado será A.
+    alert(matriz[0][1]) //O resultado será B.
+    alert(matriz[0][2]) //O resultado será C.
+    alert(matriz[1][0]) //O resultado será D.
+    alert(matriz[1][1]) //O resultado será E.
+    alert(matriz[1][2]) //O resultado será F.
+
+
+    const vetor = [1,2,3,4,5,6]
+    alert(vetor) //O resultado será o vetor inteiro.
+    alert(vetor[0]) //O resultado será 1.
+    alert(vetor[1]) //O resultado será 2.
+    alert(vetor[2]) //O resultado será 3.
+    alert(vetor[3]) //O resultado será 4.
+    alert(vetor[4]) //O resultado será 5.
+    alert(vetor[5]) //O resultado será 6.
+
+    // Funções de Arrays
+    // Adicionar item no final Array -> NomeDaArray.push()
+    vetor.push(10)
+    alert(vetor)
+
+    // Remover item do final da Array -> NomeDaArray.pop()
+    vetor.pop()
+    alert(vetor)
+
+    // Adicionar item em qualquer posição da Array
+    // splice(posicao, quantidade removida, itens)
+
+    vetor.splice(3,2,99)
+    alert(vetor)
+
+</script>

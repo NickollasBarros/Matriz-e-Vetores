@@ -1,0 +1,36 @@
+<script>
+
+        let num1, num2
+        
+        alert("SOMA!")
+        num1 = prompt("Digite a primeira parcela:")
+        num2 = prompt("Digite a segunda parcela:")
+
+// Quando o prompt armazena as variaveis informadas pelo usuário, ele armazena a resposta como texto(string),
+//  e por isso ao símbolo de (+) apenas concatena os valores, ao invés de soma-los.
+// Importante lembrar de sempre informar que os valores são númericos com a declaração "Number" conforme o exemplo abaixo.
+        resultado = Number(num1) + Number(num2)
+        alert("Total: " + resultado)
+
+        alert("SUBTRACAO!")
+        num1 = prompt("Digite o minuendo:")
+        num2 = prompt("Digite o subtraendo:")
+
+        resultado = Number(num1) - Number(num2)
+        alert("Resto: " + resultado)
+
+        alert("MULTIPLICACAO!")
+        num1 = prompt("Digite o primeiro fator:")
+        num2 = prompt("Digite o segundo fator:")
+        
+        resultado = Number(num1) * Number(num2)
+        alert("Produto: " + resultado)
+
+        alert("DIVISAO!")
+        num1 = prompt("Digite o dividendo:")
+        num2 = prompt("Digite o divisor:")
+        
+        resultado = Number(num1) / Number(num2)
+        alert("Quociente : " + resultado)
+        
+</script>
